@@ -1,6 +1,6 @@
 # savemypi
 
-Save your Hey Pi conversation history for safekeeping.
+Save your Hey Pi AI conversation history for safekeeping.
 
 ## To install dependencies:
 
@@ -10,7 +10,7 @@ bun install
 
 ## To run:
 
-1. Sign into https://pi.ai and open up Developer Tools.
+1. Sign into https://pi.ai and open up Chromme Developer Tools (or your browser's equivalent).
 2. Head to the **Network** tab and filter by `Fetch/XHR`. Refresh the Pi website so you get a fresh initial page load.
 3. Look for a fetch request that looks like `history?conversation=xxxxxx...` This is the request we are looking to replicate, that `xxxxxx..` string is also your conversation ID.
 4. Copy and paste `.env.example` and rename your copy `.env`. These are your details.
